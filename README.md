@@ -2,7 +2,9 @@
 
 🚧 En construcción! 🚧
 
-Plantilla usada: https://gethugothemes.com/products/wishfund
+Este repo contiene la web estática para: <http://www.canariasconmozambique.org/>.
+
+Plantilla usada: <https://gethugothemes.com/products/wishfund>.
 
 ## Requisitos:
 
