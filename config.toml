@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.canariasconmozambique.org/"
 languageCode = "es-ES"
-title = "WishFund hugo | Nonprofit Charity Funderising Theme"
+title = "ONG Canarias con Mozambique | ONG de ayuda a Mozambqiue y otros paises empobrecidos"
 theme = "wishfund-hugo"
 summaryLength = "10"
 paginate = 6
@@ -46,7 +46,7 @@ paginate = 6
 [menu]
     
   [[menu.main]]
-  name = "About"
+  name = "Nosotros"
   URL = "about"
   weight = 2
   
@@ -56,32 +56,32 @@ paginate = 6
   weight = 3
   
   [[menu.main]]
-  name = "Causes"
+  name = "Actuaciones"
   URL = "causes"
   weight = 4
 
   [[menu.main]]
   weight = 5
-  name = "Get Involved"
+  name = "Involúcrate"
   hasChildren = true
 
     [[menu.main]]
-    parent = "Get Involved"
-    name = "Donation"
+    parent = "Involúcrate"
+    name = "Haz una donación"
     URL = "donation"
 
     [[menu.main]]
-    parent = "Get Involved"
-    name = "Volunteer"
+    parent = "Involúcrate"
+    name = "Hazte voluntario"
     URL = "volunteer"
   
   [[menu.main]]
-  name = "Event"
+  name = "Eventos"
   URL = "event"
   weight = 6
     
   [[menu.main]]
-  name = "Contact"
+  name = "Contacto"
   URL = "contact"
   weight = 7
 
@@ -110,14 +110,14 @@ paginate = 6
 
 [params]
 logo = "images/logo.png"
-home = "Home"
+home = "Inicio"
 # Contact Information
-phone = "012548722120"
-email = "example@email.com"
-location = "Flat 20, Reynolds Neck, North Helenaville, FV77"
-copyright = "&copy; 2019 a theme by [themefisher](https://themefisher.com/)"
+phone = "0555..."
+email = "ccm@canariasconmozambique.org"
+location = "Playa de Arinaga, Agüimes, Gran Canaria"
+copyright = "&copy; 2022 diseño de la web hecho por [themefisher](https://themefisher.com/)"
 # Meta data
-description = "This is meta description"
+description = "ONG Canarias Con Mozambique"
 author = "Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
