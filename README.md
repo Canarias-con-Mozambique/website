@@ -4,9 +4,10 @@
 
 Este repo contiene la web estática para: <http://www.canariasconmozambique.org/>.
 
-Plantilla usada: <https://gethugothemes.com/products/wishfund>.
+- Plantilla usada: <https://gethugothemes.com/products/wishfund>.
+- Guía de la plantilla: <https://docs.gethugothemes.com/wishfund/>.
 
-## Requisitos:
+## Requisitos
 
 - HUGO: https://gohugo.io/
 - Node
@@ -22,7 +23,7 @@ cd website
 hugo server
 ```
 
-```
+```s
 $ hugo server
 Start building sites … 
 hugo v0.92.2+extended linux/amd64 BuildDate=2022-02-23T16:47:50Z VendorInfo=ubuntu:0.92.2-1
@@ -47,6 +48,4 @@ Running in Fast Render Mode. For full rebuilds on change: hugo server --disableF
 Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
-
-
 
