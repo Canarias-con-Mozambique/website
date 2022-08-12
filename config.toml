@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://canariasconmozambique.org/"
+baseURL = "https://www.canariasconmozambique.org/"
 languageCode = "es-ES"
 title = "WishFund hugo | Nonprofit Charity Funderising Theme"
 theme = "wishfund-hugo"
