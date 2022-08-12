@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://canariasconmozambique.org/"
+languageCode = "es-ES"
 title = "WishFund hugo | Nonprofit Charity Funderising Theme"
 theme = "wishfund-hugo"
 summaryLength = "10"
