@@ -55,30 +55,30 @@ paginate = 6
   URL = "blog"
   weight = 3
   
-  [[menu.main]]
-  name = "Actuaciones"
-  URL = "causes"
-  weight = 4
+  #[[menu.main]]
+  #name = "Actuaciones"
+  #URL = "causes"
+  #weight = 4
 
-  [[menu.main]]
-  weight = 5
-  name = "Involúcrate"
-  hasChildren = true
+  #[[menu.main]]
+  #weight = 5
+  #name = "Involúcrate"
+  #hasChildren = true
 
-    [[menu.main]]
-    parent = "Involúcrate"
-    name = "Haz una donación"
-    URL = "donation"
+    #[[menu.main]]
+    #parent = "Involúcrate"
+    #name = "Haz una donación"
+    #URL = "donation"
 
-    [[menu.main]]
-    parent = "Involúcrate"
-    name = "Hazte voluntario"
-    URL = "volunteer"
+    #[[menu.main]]
+    #parent = "Involúcrate"
+    #name = "Hazte voluntario"
+    #URL = "volunteer"
   
-  [[menu.main]]
-  name = "Eventos"
-  URL = "event"
-  weight = 6
+  #[[menu.main]]
+  #name = "Eventos"
+  #URL = "event"
+  #weight = 6
     
   [[menu.main]]
   name = "Contacto"
@@ -87,35 +87,35 @@ paginate = 6
 
   ################# footer menu ##################
 
-  [[menu.footer]]
-  name = "service"
-  URL = "service"
-  weight = 1
+  #[[menu.footer]]
+  #name = "service"
+  #URL = "service"
+  #weight = 1
 
   [[menu.footer]]
-  name = "about"
-  URL = "about"
+  name = "Memorias anuales"
+  URL = "https://github.com/Canarias-con-Mozambique/recursos"
   weight = 2
   
-  [[menu.footer]]
-  name = "blog"
-  URL = "blog"
-  weight = 3
+  #[[menu.footer]]
+  #name = "blog"
+  #URL = "blog"
+  #weight = 3
   
-  [[menu.footer]]
-  name = "pricing"
-  URL = "pricing"
-  weight = 4
+  #[[menu.footer]]
+  #name = "pricing"
+  #URL = "pricing"
+  #weight = 4
 
 
 [params]
 logo = "images/logo.png"
 home = "Inicio"
 # Contact Information
-phone = "0555..."
+#phone = "0555..."
 email = "ccm@canariasconmozambique.org"
 location = "Playa de Arinaga, Agüimes, Gran Canaria"
-copyright = "&copy; 2022 diseño de la web hecho por [themefisher](https://themefisher.com/)"
+copyright = "&copy; 2024 diseño de la web hecho por [themefisher](https://themefisher.com/)"
 # Meta data
 description = "ONG Canarias Con Mozambique"
 author = "Themefisher"
@@ -136,10 +136,10 @@ googleAnalitycsID = "Your ID"
   enable = true
 
   # Navigation button
-  [params.navBtn]
-  enable = true
-  label = "Get a quote"
-  link = "donation"
+  #[params.navBtn]
+  #enable = true
+  #label = "Get a quote"
+  #link = "donation"
 
   # Subscription
   [params.subscription]
@@ -151,22 +151,22 @@ googleAnalitycsID = "Your ID"
   [[params.social]]
   name = "Facebook"
   icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://www.facebook.com/canariasconmozambique"
   
-  [[params.social]]
-  name = "Twitter"
-  icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  #[[params.social]]
+  #name = "Twitter"
+  #icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+  #link = "#"
   
-  [[params.social]]
-  name = "Vimeo"
-  icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  #[[params.social]]
+  #name = "Vimeo"
+  #icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
+  #link = "#"
   
   [[params.social]]
   name = "Github"
   icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://github.com/Canarias-con-Mozambique"
   
 ############################# post share links ######################
 [[params.postShare]]

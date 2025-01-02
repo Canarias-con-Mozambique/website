@@ -1,7 +1,7 @@
 <div class="sidebar-wrap mt-5 mt-lg-0">
   <div class="sidebar-widget search p-4 mb-3">
     <form action="{{ .Site.BaseURL }}/search">
-      <input id="search-query" name="s" type="search" class="form-control" placeholder="search">
+      <input id="search-query" name="s" type="search" class="form-control" placeholder="buscar">
     </form>
   </div>
 
@@ -16,7 +16,7 @@
   </div>
 
   <div class="sidebar-widget categories p-4 mb-3">
-    <h5 class="mb-4">Caregory</h5>
+    <h5 class="mb-4">Categoría</h5>
     <ul class="list-unstyled">
       {{- if isset .Site.Taxonomies "categories" }}
       {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
@@ -29,7 +29,7 @@
   </div>
 
   <div class="sidebar-widget tags p-4 mb-3">
-    <h5 class="mb-4">Tags</h5>
+    <h5 class="mb-4">Etiquetas</h5>
     {{- if isset .Site.Taxonomies "tags" }}
     {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
     {{- range $name, $items := .Site.Taxonomies.tags }}

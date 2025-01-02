@@ -1,44 +1,21 @@
 ---
-title: "Save Poor Childrens"
+title: "Educación infantil"
 date: 2019-09-25T11:28:32+06:00
 draft: false
 description : "this is a meta description"
 bgImage: "images/bg/bg-3.jpg"
-image: "images/about/image-1.jpg"
-goal: "$890"
-raised: "$390"
+image: "images/about/event-1.jpg"
+goal: ""
+raised: ""
 type: "causes"
 ---
 
+Becas o apadrinamientos de niñas.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi explicabo nisi adipisci, harum unde
-sit, magni fuga alias incidunt neque eius reiciendis perferendis suscipit commodi dolorem ipsa veritatis
-accusamus. Molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A numquam incidunt earum aut
-culpa consequatur inventore molestias autem nihil neque voluptas dignissimos tenetur pariatur tempore totam
-vero, delectus cum, quibusdam?
+## Apadrinamientos
 
-## We Need Your Help.Let's Work together.
+Para la escolarización de niños y niñas de comunidades rurales de extrema pobreza. Puedes colaborara medienta becas de apadrinamiento.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem dolorem ipsum natus quae, molestias
-labore expedita, eligendi nemo aliquid aperiam doloribus recusandae nulla cum perspiciatis repudiandae
-asperiores, maiores omnis.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book 
-
-## Great thing start with small foot step
-
-Dolores recusandae, cum numquam dolor officia hic. Repellendus ratione quibusdam deleniti autem vero
-possimus velit, dolor incidunt quos commodi labore, reprehenderit maxime!
-
-### Let's Know more how we do it?
-
-{{< youtube voF1plqqZJA >}}
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas placeat mollitia nisi
-voluptatem illum laborum, iusto, accusantium expedita odio ducimus voluptatum, quo sequi odit dolore beatae
-officia impedit adipisci delectus.
-
-
-* We Are creative organization
-* Trusted funding Resources for poor 
-* Quas placeat mollitia nisi voluptatem illum laborum
+- Becas o apadrinamientos de niñas de la escuela de Nacala, y de las escuelas hogares de Marrere, Meconta y Mamola.
+- Becas de niñas de la calle para su formación y su alojamiento en el hogar  Elda.
+- Becas de niños y niñas de la escuela Pedro Claver en el Valle del Chota, en Ecuador.

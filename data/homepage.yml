@@ -5,7 +5,7 @@ banner:
   title: "Nueva esperanza para <br> el futuro"
   content: "Tu pequeña contribución significa mucho."
   button:
-    enable: true
+    enable: false
     label: "Donar Ahora"
     link: "donation"
 
@@ -14,22 +14,23 @@ intro:
   enable: true
   subtitle: "¿Qué podemos hacer?"
   title: "Creemos que podemos <br>Salvar Más Vidas con tu ayuda"
-  content: "🚧 Actualmente está página está en construcción 🚧. Por lo pronto puedes descargar y leer nuestras [memorias anuales](https://github.com/Canarias-con-Mozambique/recursos/tree/main/memorias-anuales). Están todas las memorias desde el año 2008, aunque la ONG tiene 20 años."
+  content: "Somos un grupo de voluntarios que desde el año 2000 dedicamos parte de nuestro tiempo libre a intentar  mejorar las condiciones de vida de los habitantes de los pueblos empobrecidos.
+Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  para conseguirlo."
   introItem:
     # intro item loop
     - title: "Inspírate"
       image: "images/about/image-1.jpg"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+      content: "Puedes leer nuestras memorias anuales para saber más sobre nuestras actividades."
 
     # intro item loop
     - title: "Haz un Donativo"
       image: "images/about/image-2.jpg"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+      content: "CCC: 3177 0021 66 2065161628"
 
     # intro item loop
     - title: "Colabora con Nosotros"
       image: "images/about/image-3.jpg"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+      content: "Puedes colaborar con nosotros a través de nuestros canales de colaboración."
 
     # intro item loop
     - title: "Ayuda a la Infancia"
@@ -39,9 +40,9 @@ intro:
 ################################# Video ###############################
 video:
   enable: true
-  title: "Logramos un cambio <br>en sus vidas"
-  videoThumb: "images/bg/bg-3.jpg"
-  video: "https://youtu.be/oexcS2phjhk"
+  title: "Logramos un cambio en sus vidas"
+  videoThumb: "images/bg/entrevista-tv.png"
+  video: "https://www.youtube.com/watch?v=hSBO9c4tyQc"
 
 ################################# funfacts ###############################
 funfacts:
@@ -49,7 +50,7 @@ funfacts:
   funItem:
     # funfacts item loop
     - title: "Años de Experiencia"
-      count: "20"
+      count: "25"
 
     # funfacts item loop
     - title: "Voluntarios Activos"
@@ -60,8 +61,8 @@ funfacts:
       count: "2"
 
     # funfacts item loop
-    - title: "Mejoramos la Vida de Personas"
-      count: "13687"
+    #- title: "Mejoramos la Vida de Personas"
+    #  count: "13687"
 
 ############################ gallery ###################################
 gallery:
@@ -92,7 +93,7 @@ cta:
   enable: true
   title: "No podemos ayudar a todo el mundo, pero todo el mundo puede ayudar a alguien"
   button:
-    enable: true
+    enable: false
     label: "Haz un donativo"
     link: "donation"
 
@@ -108,33 +109,32 @@ blog:
 volunteer:
   enable: true
   image: "images/bg/image-5.jpg"
-  title: "No podemos ayudar a todo el mundo, pero todo el mundo puede ayudar a alguien"
+  title: "Contacto directo"
   content:
-    "Assumenda reiciendis delectus dolore incidunt molestias omnis quo quaerat voluptate, eligendi perspiciatis
-    ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
+    "Estamos en contacto directo con las personas que ayudamos a través de misioneras combonianas."
   partners:
     enable: true
-    title: "Trusted worldwide partner"
+    title: "Aliados en el terreno"
     partner:
       # partner loop
-      - logo: "images/clients/client1.png"
-        link: "#"
+      - logo: "images/aliados-en-el-terreno/misioneras-combonianas.webp"
+        link: "https://www.misionerascombonianas.org/"
 
       # partner loop
-      - logo: "images/clients/client2.png"
-        link: "#"
+      #- logo: "images/clients/client2.png"
+      #  link: "#"
 
       # partner loop
-      - logo: "images/clients/client4.png"
-        link: "#"
+      #- logo: "images/clients/client4.png"
+      #  link: "#"
 
       # partner loop
-      - logo: "images/clients/client5.png"
-        link: "#"
+      #- logo: "images/clients/client5.png"
+      #  link: "#"
 
       # partner loop
-      - logo: "images/clients/client6.png"
-        link: "#"
+      #- logo: "images/clients/client6.png"
+      #  link: "#"
 
   # form
   form:
