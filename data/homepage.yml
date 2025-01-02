@@ -35,7 +35,7 @@ Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  pa
     # intro item loop
     - title: "Ayuda a la Infancia"
       image: "images/about/image-1.jpg"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+      content: "Proyectos de desarrollo relacionados con la infancia."
 
 ################################# Video ###############################
 video:
@@ -68,7 +68,7 @@ funfacts:
 gallery:
   enable: true
   subtitle: "Nuestra Contribución"
-  title: "Estamos en conctacto directo con las personas que ayudamos a través de misioneras combonianas."
+  title: "Estamos en contacto directo con las personas que ayudamos a través de misioneras combonianas."
   galleryItems:
     - image: "images/gallery/1.jpg"
     - image: "images/gallery/2.jpg"
@@ -79,12 +79,13 @@ gallery:
     - image: "images/gallery/7.jpg"
     - image: "images/gallery/8.jpg"
     - image: "images/gallery/9.jpg"
+    - image: "images/gallery/10.jpg"
 
 ########################## latest causes ################################
 causes:
   enable: true
   subtitle: "Nuestras Aportaciones"
-  title: "Nuetros Focus de Actuación Primarios"
+  title: "Nuetras Áreas de Actuación Primarias"
   content: "Contribuimos con las necesitas prioritarias para esas personas, aunque por lo general tenemos un compromiso especial a largo plazo en algunos aspectos muy importantes."
   # causes item comes from "content/event" folder
 

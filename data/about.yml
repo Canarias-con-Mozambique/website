@@ -1,37 +1,37 @@
 ########################### about ###############################
 about:
   enable : true
-  image : "images/about/img-3.jpg"
-  title : "Welcome to Charite NonProfit Organization"
-  leadContent : "Charite is the world’s #1 fundraising site forcharitable causes. Raise money for over 1.5
-            million charities."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+  image : "images/about/grupo.jpg"
+  title : "Canarias con Mozambique"
+  leadContent : "Somos un grupo de voluntarios que desde el año 2000 dedicamos parte de nuestro tiempo libre a intentar  mejorar las condiciones de vida de los habitantes de los pueblos empobrecidos."
+  content : "Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  para conseguirlo. Realizamos proyectos de desarrollo relacionados con la infancia, la promoción de la mujer y la sanidad, en coordinación con misioneras y misioneros que trabajan en países empobrecidos.
+Sensibilización a través de acciones en los centros educativos como charlas, exposiciones, talleres, video-forum, debates, jornadas solidarias, etc.
+Charlas, coloquios, mesas redondas y conferencias en parroquias, centros culturales y centros públicos.
+Promoción del Comercio Justo. Este tipo de comercio garantiza al productor un precio justo por su trabajo y contribuye a dignificar su vida.
+"
 
 
 ############################# partners ##########################
 partners:
   enable : true
-  title : "Worldwide partner"
-  content : "Assumenda reiciendis delectus dolore incidunt molestias omnis quo quaerat voluptate, eligendi perspiciatis
-            ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
+  title : "Aliados en el terreno"
+  content : "Tenemos una colaboración directa con las personas que ayudamos a través de misioneras combonianas."
   partnersLogo:
     # partner logo loop
-    - logo : "images/clients/client1.png"
+    - logo : "images/aliados-en-el-terreno/misioneras-combonianas.webp"
       link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client2.png"
-      link : "#"
+    #- logo : "images/clients/client2.png"
+    #  link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client5.png"
-      link : "#"
+    #- logo : "images/clients/client5.png"
+    #  link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client4.png"
-      link : "#"
+    #- logo : "images/clients/client4.png"
+    #  link : "#"
 
 
 ########################## history ##############################
@@ -39,26 +39,26 @@ history:
   enable : true
   historyItem:
     # history item loop
-    - title : "Founded in 1962"
+    - title : "Fundada en 2000"
       icon : "ti-home"
-      subtitle : "Work Since 1987 with Pride!!"
-      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      subtitle : "Trabajando desde el año 2000!!"
+      content : "Por mejorar la vida de las personas que más lo necesitan."
       
     # history item loop
-    - title : "Our History"
+    - title : "Nuestra historia"
       icon : "ti-agenda"
-      subtitle : "Mission to make smile the world"
-      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      subtitle : "Creemos que un mundo mejor es posible"
+      content : "Y queremos poner algo de nuestra parte  para conseguirlo."
       
     # history item loop
-    - title : "Large Community"
+    - title : "Comunidad extensa"
       icon : "ti-hand-open"
-      subtitle : "Join our community & help others"
-      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      subtitle : "Únete a nuestra co munidad"
+      content : "Colaboramos con personas que trabajan en el terreno en países empobrecidos."
 
 ############################### Team ##############################
 team:
-  enable : true
+  enable : false
   subtitle : "Our volunteer"
   title : "Expert volunteer to get best service"
   button:

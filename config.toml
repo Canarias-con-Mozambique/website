@@ -60,15 +60,15 @@ paginate = 6
   #URL = "causes"
   #weight = 4
 
-  #[[menu.main]]
-  #weight = 5
-  #name = "Involúcrate"
-  #hasChildren = true
+  [[menu.main]]
+  weight = 5
+  name = "Involúcrate"
+  hasChildren = true
 
-    #[[menu.main]]
-    #parent = "Involúcrate"
-    #name = "Haz una donación"
-    #URL = "donation"
+    [[menu.main]]
+    parent = "Involúcrate"
+    name = "Haz una donación"
+    URL = "donation"
 
     #[[menu.main]]
     #parent = "Involúcrate"
@@ -115,7 +115,7 @@ home = "Inicio"
 #phone = "0555..."
 email = "ccm@canariasconmozambique.org"
 location = "Playa de Arinaga, Agüimes, Gran Canaria"
-copyright = "&copy; 2024 diseño de la web hecho por [themefisher](https://themefisher.com/)"
+copyright = "&copy; 2025 diseño de la web hecho por [themefisher](https://themefisher.com/)"
 # Meta data
 description = "ONG Canarias Con Mozambique"
 author = "Themefisher"
@@ -174,17 +174,17 @@ icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
 name = "facebook"
 link = "#"
 
-[[params.postShare]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-name = "twitter"
-link = "#"
+#[[params.postShare]]
+#icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+#name = "twitter"
+#link = "#"
 
-[[params.postShare]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-name = "linkedin"
-link = "#"
+#[[params.postShare]]
+#icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+#name = "linkedin"
+#link = "#"
 
-[[params.postShare]]
-icon = "ti-pinterest" # themify icon pack https://themify.me/themify-icons
-name = "pinterest"
-link = "#"
+#[[params.postShare]]
+#icon = "ti-pinterest" # themify icon pack https://themify.me/themify-icons
+#name = "pinterest"
+#link = "#"

@@ -6,7 +6,7 @@
   </div>
 
   <div class="sidebar-widget latest-post p-4 mb-3">
-    <h5>Latest Posts</h5>
+    <h5>Artículos Recientes</h5>
     {{ range first 3 ( where .Site.Pages "Type" "post" )}}
     <div class="border-bottom py-3">
       <span class="text-sm text-muted">{{ .PublishDate.Format "02 Jan 2006" }}</span>
