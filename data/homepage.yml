@@ -19,13 +19,13 @@ Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  pa
   introItem:
     # intro item loop
     - title: "Inspírate"
-      image: "images/about/image-1.jpg"
-      content: "Puedes leer nuestras memorias anuales para saber más sobre nuestras actividades."
+      image: "images/about/event-3.jpg"
+      content: "Puedes leer nuestras [memorias anuales](https://github.com/Canarias-con-Mozambique/recursos) para saber más sobre nuestras actividades."
 
     # intro item loop
     - title: "Haz un Donativo"
       image: "images/about/image-2.jpg"
-      content: "CCC: 3177 0021 66 2065161628"
+      content: "Colabora puntualmente (CCC: 3177 0021 66 2065161628) o con un apadrinamiento."
 
     # intro item loop
     - title: "Colabora con Nosotros"
