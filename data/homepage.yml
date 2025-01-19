@@ -34,7 +34,7 @@ Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  pa
 
     # intro item loop
     - title: "Ayuda a la Infancia"
-      image: "images/about/image-1.jpg"
+      image: "images/about/canarias-con-mozambique-ayuda-a-la-infancia.jpg"
       content: "Proyectos de desarrollo relacionados con la infancia."
 
 ################################# Video ###############################
@@ -70,16 +70,32 @@ gallery:
   subtitle: "Nuestra Contribución"
   title: "Estamos en contacto directo con las personas que ayudamos a través de misioneras combonianas."
   galleryItems:
-    - image: "images/gallery/1.jpg"
-    - image: "images/gallery/2.jpg"
-    - image: "images/gallery/3.jpg"
-    - image: "images/gallery/4.jpg"
-    - image: "images/gallery/5.jpg"
-    - image: "images/gallery/6.jpg"
-    - image: "images/gallery/7.jpg"
-    - image: "images/gallery/8.jpg"
-    - image: "images/gallery/9.jpg"
-    - image: "images/gallery/10.jpg"
+    # horizontales
+    - image: "images/gallery/canarias-con-mozambique-001.jpg"
+    - image: "images/gallery/canarias-con-mozambique-002.jpg"
+    - image: "images/gallery/canarias-con-mozambique-003.jpg"
+    - image: "images/gallery/canarias-con-mozambique-004.jpg"
+    - image: "images/gallery/canarias-con-mozambique-005.jpg"
+    - image: "images/gallery/canarias-con-mozambique-006.jpg"
+    - image: "images/gallery/canarias-con-mozambique-007.jpg"
+    - image: "images/gallery/canarias-con-mozambique-008.jpg"
+    - image: "images/gallery/canarias-con-mozambique-009.jpg"
+    - image: "images/gallery/canarias-con-mozambique-010.jpg"
+    - image: "images/gallery/canarias-con-mozambique-011-centro-alfabetizacion.jpg"
+    - image: "images/gallery/canarias-con-mozambique-014-educacion.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-015-escuale-femenina-de-nacala.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-023-proyecto-agricola-con-estrella.jpg"
+    # verticales
+    #- image: "images/gallery/canarias-con-mozambique-013-comprobando-los-pozos.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-016-estudiantes-de-enfermeria-de-nampula.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-017-estudiantes-de-enfermeria-en-balama.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-018-foto-grupo.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-019-infancia.jpg"
+    - image: "images/gallery/canarias-con-mozambique-020-pozo-01.jpg"
+    - image: "images/gallery/canarias-con-mozambique-021pozo-02.jpg"
+    - image: "images/gallery/canarias-con-mozambique-022-pozo-03.jpg"
+    #- image: "images/gallery/canarias-con-mozambique-012-centro-nutricional-de-alua.jpg"
+
 
 ########################## latest causes ################################
 causes:
