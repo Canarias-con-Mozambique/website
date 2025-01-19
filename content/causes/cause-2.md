@@ -15,4 +15,4 @@ Construcción de pozos de agua potable.
 
 ## Pozos y hospitales
 
-Construcción de pozos de agua potable en diferentes localidades de Nacala y rehabilitación del centro de salud y construcción de una sala materno-sanitaria en Nhacongo, en la provincia de Beira, Mozambique.
+Construcción de pozos de agua potable en diferentes localidades de Nampula y rehabilitación del centro de salud y construcción de una sala materno-sanitaria en Nhacongo, en la provincia de Beira, Mozambique.

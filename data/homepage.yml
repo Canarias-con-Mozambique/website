@@ -19,12 +19,12 @@ Creemos que un mundo mejor es posible y queremos poner algo de nuestra parte  pa
   introItem:
     # intro item loop
     - title: "Inspírate"
-      image: "images/about/event-3.jpg"
+      image: "images/about/canarias-con-mozambique-inspirate.jpg"
       content: "Puedes leer nuestras [memorias anuales](https://github.com/Canarias-con-Mozambique/recursos) para saber más sobre nuestras actividades."
 
     # intro item loop
     - title: "Haz un Donativo"
-      image: "images/about/image-2.jpg"
+      image: "images/about/canarias-con-mozambique-donativo.jpg"
       content: "Colabora puntualmente (CCC: ES96 3058 6116 3027 2000 8920; BIZUM: 11088) o con un apadrinamiento."
 
     # intro item loop

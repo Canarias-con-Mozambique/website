@@ -10,12 +10,11 @@ raised: ""
 type: "causes"
 ---
 
-Becas o apadrinamientos de niñas.
+Becas de niñas.
 
-## Apadrinamientos
+## Becas
 
-Para la escolarización de niños y niñas de comunidades rurales de extrema pobreza. Puedes colaborara medienta becas de apadrinamiento.
+Para la escolarización de niños y niñas de comunidades rurales de extrema pobreza.
 
-- Becas o apadrinamientos de niñas de la escuela de Nacala, y de las escuelas hogares de Marrere, Meconta y Mamola.
+- Becas de niñas de la escuela de Nacala, y de las escuelas hogares de Momola y Lichinga.
 - Becas de niñas de la calle para su formación y su alojamiento en el hogar  Elda.
-- Becas de niños y niñas de la escuela Pedro Claver en el Valle del Chota, en Ecuador.
