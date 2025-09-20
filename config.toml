@@ -1,111 +1,125 @@
 ######################## default configuration ####################
 baseURL = "https://www.canariasconmozambique.org/"
 languageCode = "es-ES"
+defaultContentLanguage = "es"
 title = "ONG Canarias con Mozambique | ONG de ayuda a Mozambqiue y otros paises empobrecidos"
 theme = "wishfund-hugo"
 summaryLength = "10"
-paginate = 6
+
+[pagination]
+pagerSize = 6
+
+[languages]
+[languages.es]
+languageCode = "es-ES"
+languageName = "Español"
+weight = 1
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [outputs]
-  home = ["HTML", "AMP", "RSS", "JSON"]
+home = ["HTML", "AMP", "RSS", "JSON"]
 
 ######################### Plugins #################################
 [params.plugins]
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/css/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify/css/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/magnific-popup/dist/magnific-popup.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick-carousel/slick/slick.css"
+# CSS Plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify/css/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/magnific-popup/dist/magnific-popup.css"
+[[params.plugins.css]]
+URL = "plugins/slick-carousel/slick/slick.css"
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jquery/jquery.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/js/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick-carousel/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/reading-time/readingTime.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
-  [[params.plugins.js]]
-  URL = "plugins/google-map/map.js"
-  
+# JS Plugins
+[[params.plugins.js]]
+URL = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick-carousel/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/mark.js"
+[[params.plugins.js]]
+URL = "plugins/search/search.js"
+[[params.plugins.js]]
+URL = "plugins/google-map/map.js"
+
 ############################## navigation ###############################
 [menu]
-    
-  [[menu.main]]
-  name = "Nosotros"
-  URL = "about"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 3
-  
-  #[[menu.main]]
-  #name = "Actuaciones"
-  #URL = "causes"
-  #weight = 4
 
-  [[menu.main]]
-  weight = 5
-  name = "Involúcrate"
-  hasChildren = true
+[[menu.main]]
+name = "Nosotros"
+URL = "about"
+weight = 2
 
-    [[menu.main]]
-    parent = "Involúcrate"
-    name = "Haz una donación"
-    URL = "donation"
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 3
 
-    #[[menu.main]]
-    #parent = "Involúcrate"
-    #name = "Hazte voluntario"
-    #URL = "volunteer"
-  
-  #[[menu.main]]
-  #name = "Eventos"
-  #URL = "event"
-  #weight = 6
-    
-  [[menu.main]]
-  name = "Contacto"
-  URL = "contact"
-  weight = 7
+#[[menu.main]]
+#name = "Actuaciones"
+#URL = "causes"
+#weight = 4
 
-  ################# footer menu ##################
+[[menu.main]]
+weight = 5
+name = "Involúcrate"
+hasChildren = true
 
-  #[[menu.footer]]
-  #name = "service"
-  #URL = "service"
-  #weight = 1
+[[menu.main]]
+parent = "Involúcrate"
+name = "Haz una donación"
+URL = "donation"
 
-  [[menu.footer]]
-  name = "Memorias anuales"
-  URL = "https://github.com/Canarias-con-Mozambique/recursos"
-  weight = 2
-  
-  #[[menu.footer]]
-  #name = "blog"
-  #URL = "blog"
-  #weight = 3
-  
-  #[[menu.footer]]
-  #name = "pricing"
-  #URL = "pricing"
-  #weight = 4
+#[[menu.main]]
+#parent = "Involúcrate"
+#name = "Hazte voluntario"
+#URL = "volunteer"
+
+#[[menu.main]]
+#name = "Eventos"
+#URL = "event"
+#weight = 6
+
+[[menu.main]]
+name = "Contacto"
+URL = "contact"
+weight = 7
+
+################# footer menu ##################
+
+#[[menu.footer]]
+#name = "service"
+#URL = "service"
+#weight = 1
+
+[[menu.footer]]
+name = "Memorias anuales"
+URL = "https://github.com/Canarias-con-Mozambique/recursos"
+weight = 2
+
+#[[menu.footer]]
+#name = "blog"
+#URL = "blog"
+#weight = 3
+
+#[[menu.footer]]
+#name = "pricing"
+#URL = "pricing"
+#weight = 4
 
 
 [params]
@@ -127,47 +141,47 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 
-  # Preloader
-  [params.preloader]
-  enable = true
+# Preloader
+[params.preloader]
+enable = true
 
-  # Navigation top header
-  [params.topHeader]
-  enable = true
+# Navigation top header
+[params.topHeader]
+enable = true
 
-  # Navigation button
-  #[params.navBtn]
-  #enable = true
-  #label = "Get a quote"
-  #link = "donation"
+# Navigation button
+#[params.navBtn]
+#enable = true
+#label = "Get a quote"
+#link = "donation"
 
-  # Subscription
-  [params.subscription]
-  title = "Subscribe Us"
-  content = "Subscribe to get latest news article and resources"
-  
+# Subscription
+[params.subscription]
+title = "Subscribe Us"
+content = "Subscribe to get latest news article and resources"
 
-  #################### social icon ######################################
-  [[params.social]]
-  name = "Facebook"
-  icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.facebook.com/canariasconmozambique"
-  
-  #[[params.social]]
-  #name = "Twitter"
-  #icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-  #link = "#"
-  
-  #[[params.social]]
-  #name = "Vimeo"
-  #icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
-  #link = "#"
-  
-  [[params.social]]
-  name = "Github"
-  icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-  link = "https://github.com/Canarias-con-Mozambique"
-  
+
+#################### social icon ######################################
+[[params.social]]
+name = "Facebook"
+icon = "ti-facebook"                                    # themify icon pack https://themify.me/themify-icons
+link = "https://www.facebook.com/canariasconmozambique"
+
+#[[params.social]]
+#name = "Twitter"
+#icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+#link = "#"
+
+#[[params.social]]
+#name = "Vimeo"
+#icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+name = "Github"
+icon = "ti-github"                                  # themify icon pack https://themify.me/themify-icons
+link = "https://github.com/Canarias-con-Mozambique"
+
 ############################# post share links ######################
 [[params.postShare]]
 icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
