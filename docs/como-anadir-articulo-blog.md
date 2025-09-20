@@ -99,15 +99,15 @@ image: "images/blog/XXX/imagen-principal.jpg"
 ### Categorías comunes
 
 - `"Medios"` - Para cobertura mediática, entrevistas, reconocimientos
-- `"Water"` - Proyectos relacionados con agua potable
-- `"Education"` - Proyectos educativos
-- `"Health"` - Proyectos de salud
+- `"Agua"` - Proyectos relacionados con agua potable
+- `"Educación"` - Proyectos educativos
+- `"Salud"` - Proyectos de salud
 
 ### Tags frecuentes
 
 - Ubicación: `"mozambique"`, `"agüimes"`, `"canarias"`
 - Tipo: `"premio"`, `"reconocimiento"`, `"proyecto"`, `"voluntariado"`
-- Tema: `"water"`, `"education"`, `"health"`, `"medios"`
+- Tema: `"agua"`, `"educación"`, `"salud"`, `"medios"`
 - Año: `"2025"`, `"2024"`, etc.
 
 ## 6. 🔗 Enlaces y referencias

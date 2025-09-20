@@ -1,6 +1,24 @@
 # Web Canarias con Mozambique
 
-🚧 En construccióPress Ctrl+C to stop
+🚧 En construccióPress ```
+
+## 📚 Documentación
+
+Para más información sobre la gestión del contenido:
+
+- [📝 Cómo añadir un nuevo artículo al blog](docs/como-anadir-articulo-blog.md)
+
+## 🤖 Instrucciones para GitHub Copilot
+
+Este proyecto incluye un archivo de [instrucciones personalizadas para GitHub Copilot](.github/copilot-instructions.md) que proporciona contexto específico sobre:
+
+- Tecnologías utilizadas (Hugo, tema wishfund-hugo)
+- Estructura del contenido y convenciones
+- Estilo de escritura y localización en español
+- Categorías y etiquetado
+- Mejores prácticas para imágenes y SEO
+
+Estas instrucciones mejoran la calidad de las respuestas de Copilot Chat cuando trabajas con el proyecto.to stop
 
 ````
 
