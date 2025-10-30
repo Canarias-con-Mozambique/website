@@ -9,7 +9,7 @@
     <h5>Artículos Recientes</h5>
     {{ range first 3 ( where .Site.Pages "Type" "post" )}}
     <div class="border-bottom py-3">
-      <span class="text-sm text-muted">{{ .PublishDate.Format "02 Jan 2006" }}</span>
+      <span class="text-sm text-muted">{{ .PublishDate.Day }} {{ index (slice "Ene" "Feb" "Mar" "Abr" "May" "Jun" "Jul" "Ago" "Sep" "Oct" "Nov" "Dic") (sub .PublishDate.Month 1) }} {{ .PublishDate.Year }}</span>
       <h5 class="my-2"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h5>
     </div>
     {{ end }}

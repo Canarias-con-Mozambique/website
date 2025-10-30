@@ -124,7 +124,8 @@
     _this.readingTime({
       readingTimeTarget: _this.find('.eta'),
       remotePath: _this.attr('data-file'),
-      remoteTarget: _this.attr('data-target')
+      remoteTarget: _this.attr('data-target'),
+      lang: 'es'
     });
   });
 
